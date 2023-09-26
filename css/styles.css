@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #e0f8e0;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #122a0a;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu li:hover a {
+  background-color: #04b431;
+  color: #191c32;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+.video1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.video2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.video3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 2em;
+}
+
+.aboutme {
+  display: inline-block;
+  vertical-align: top;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 1em;
+  justify-content: center;
+  text-align: justify;
+}
+
+.me-image {
+  width: 300px;
+  height: 400px;
+  display: inline block;
+  margin: 40px auto;
+  float: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+.form-group textarea {
+  height: 150px;
+  padding: 1.5em;
+  background: none;
+  border: 1px solid#122a0a;
+  color: black;
+}
+
+.form-group .input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid#122a0a;
+  color: black;
+}
+
+.form-group .btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #122a0a;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 130px;
+  padding: 2em;
+  background-color: #122a0a;
+  color: #fff;
+}
+
+.footer-content h1 {
+  text-align: center;
+}
+
+.footer-content h5 {
+  text-align: center;
+}
+
+.sotial-networks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.sotial-networks i {
+  font-size: 1.5em;
+}
